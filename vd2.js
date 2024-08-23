@@ -1,0 +1,1 @@
+alert("Chao Mung Ban Den Voi JavaScript!");

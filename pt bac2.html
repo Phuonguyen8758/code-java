@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+      var a = prompt("Nhap so a: = ")
+      var b = prompt ("Nhap so b: = ")
+      var c = prompt ("Nhap so c: = ")
+      if (delta < 0 ){
+           document.write ("phuong trinh vo nghiem" + "<br>");
+      }
+      else if(delta == 0){
+        x = -b/(2*a);
+        document.write("Phuong Trinh co nghiem kep x = " + x);
+      }
+      else 
+         {
+            document.write("Phuong trinh co 2 nghiem phan biet" + "<br>");
+            x1 = (-b + Math.sqrt(delta))/(2*a);
+            x2 = (-b - Math.sprt(delta))/(2*a);
+            document.write("x1 = "+ x1 + "<br>");
+            document.write("x2 = "+ x2 + "<br>");
+         }
+    </script>
+        
+</body>
+</html>
